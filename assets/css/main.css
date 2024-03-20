@@ -1,0 +1,291 @@
+@import "@/assets/fonts/stylesheet.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sintony:wght@400;700&display=swap');
+/* fonts */
+@font-face {
+  font-family: "Against";
+  src: url(../fonts/against-regular.ttf);
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(../fonts/Gilroy-Regular.ttf);
+}
+/* @font-face {
+  font-family: "Helvetica";
+  src: url(../fonts/HelveticaNeue\ Regular.ttf);
+} */
+
+@font-face {
+  font-family: "Optima-cyr";
+  src: url(../fonts/Optima-Cyr-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Sb-sans-display";
+  src: url(../fonts/SBSansDisplay-SemiBold.otf);
+}
+@font-face {
+  font-family: "T-Neue-bold";
+  src: url(../fonts/TT-Firs-Neue-Trial-Bold.ttf);
+}
+@font-face {
+  font-family: "T-Neue-demibold";
+  src: url(../fonts/TT-Firs-Neue-Trial-DemiBold.ttf)
+}
+@font-face {
+  font-family: "T-Neue-ExtraBold";
+  src: url(../fonts/TT-Firs-Neue-Trial-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "T-Neue-italic";
+  src: url(../fonts/TT-Firs-Neue-Trial-Italic.ttf);
+}
+@font-face {
+  font-family: "T-Neue-medium";
+  src: url(../fonts/TT-Firs-Neue-Trial-Medium.ttf);
+}
+@font-face {
+  font-family: "T-Neue-regular";
+  src: url(../fonts/TT-Firs-Neue-Trial-Regular.ttf);
+}
+
+/* variables */
+:root {
+  /* fonts  */
+  --regular: "against";
+  --g-md: "Gilroy-Medium";
+  --g-rg: "Gilroy-Regular";
+  /* --h-rg: "Helvetica"; */
+  --decor-bd: "T-Neue-bold";
+  --decor-rg: "T-Neue-regular";
+  --decor-eb: "T-Neue-ExtraBold";
+  --decor-db: "T-Neue-demibold";
+  --decor-md: "T-Neue-medium";
+  --decor-ic: "T-Neue-italic";
+  --decor-rg: "T-Neue-regular";
+
+  /* colors */
+  --grey-8: #ebebeb;
+  --grey-24: #c2c2c3;
+  --grey-40: #9a999b;
+  --grey-80: #353437;
+  --grey-light: #e7edfb;
+  --bg-grey: #f8f9ff;
+  --blue: #5c46e5;
+  --black: #020105;
+  --dark-yellow: #f2994a;
+  --green: #009a10;
+  --yellow: #f2c94c;
+  --light-red: #f2154a;
+  --pantone-2023: #bb2649;
+  --red: #ed3237;
+  --purple: #7037ea;
+  --argo-green: #00cd69;
+  --border-darik: #e0e0ed;
+  --main-color: #5c46e5;
+  --blue-night: #001935;
+  --dark-grey-100: #212529;
+  --light-red2: #fff6f6;
+  --meta-grey: #667b8c;
+  --light-blue2: #4b9aff;
+}
+
+/* main/css */
+
+
+.font-400 {
+  font-family: var(--regular);
+}
+.font-700 {
+  font-family: var(--decor-bd);
+}
+
+.decor-400 {
+  font-family: var(--decor-rg);
+}
+.decor-500 {
+  font-family: var(--decor-md);
+}
+.decor-db {
+  font-family: var(--decor-db);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "TT First Neue Trial";
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,
+button {
+  font-family: "TT First Neue Trial";
+}
+.font-tt {
+  font-family: "TT First Neue Trial";
+}
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol
+      *)) {
+  all: unset;
+  display: revert;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a,
+button {
+  cursor: pointer;
+}
+ol,
+ul,
+menu {
+  list-style: none;
+}
+img {
+  max-inline-size: 100%;
+  max-block-size: 100%;
+}
+table {
+  border-collapse: collapse;
+}
+textarea {
+  white-space: revert;
+}
+meter {
+  -webkit-appearance: revert;
+  appearance: revert;
+}
+:where(pre) {
+  all: revert;
+}
+::placeholder {
+  color: unset;
+}
+::marker {
+  content: initial;
+}
+:where([hidden]) {
+  display: none;
+}
+:where([contenteditable]:not([contenteditable="false"])) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+}
+:where([draggable="true"]) {
+  -webkit-user-drag: element;
+}
+:where(dialog:modal) {
+  all: revert;
+}
+ul {
+  margin: 0;
+}
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+  margin-bottom: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin-bottom: 0;
+}
+input:focus-visible {
+  outline: none;
+}
+.ant-form-item {
+  margin-bottom: 0;
+}
+.ant-modal-footer {
+  display: none !important;
+}
+.auth-item label {
+  color: var(--black);
+  font-family: "TT First Neue Trial";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+.auth-item label::after,
+.auth-item label::before {
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+  border-radius: 6px;
+}
+.ant-upload-list-text {
+  display: none;
+}
+.text-orange{
+  color: #FF6418;
+}
+.text-gray{
+  color: #727474;
+}
+.text-black{
+  color: #020105;
+}
+
+.container{
+  max-width: 1630px;
+  margin: 0 auto;
+}
+.align-center{
+  align-items: center;
+}
+.d-flex{
+  display: flex;
+}
+
+.bg-gray{
+  background-color: #F4F5F5;
+}
+.font-inter{
+  font-family: 'Inter';
+  font-weight: normal;
+}
+
+@media (max-width: 1440px) {
+  .container{
+    max-width: 1250px;
+  }
+}
+@media (max-width: 1200px) {
+  .auth-item label {
+    font-size: 14px;
+  }
+}
+

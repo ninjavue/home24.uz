@@ -1,0 +1,72 @@
+.header{
+    &-logo{
+        width: 180px;
+        height: 50px;
+    }
+    &-catalog{
+        background-color: lighten($color: #FF6418, $amount: 40);
+        padding: 14px 18px;
+        border-radius: 5px;
+        &:hover{
+            background-color: lighten($color: #FF6418, $amount: 30);
+        }
+    }
+    &-action{
+        padding: 13px 5px;
+        &:hover{
+            background-color: lighten($color: #FF6418, $amount: 30);
+            border-radius: 5px;
+        }
+    }
+    &-top{
+        padding: 10px 0;
+    }
+    &-search{
+        border: 1px solid #EBEBEB;
+        color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Inter';
+        font-weight: normal;
+        font-size: 16px;
+        border-radius: 8px;
+        padding-left: 16px;
+        overflow: hidden;
+        width: 670px;
+        & input{
+            flex: 1;
+        }
+        &-btn{
+            background: #F8F8F8;
+            padding: 10px 43px;
+            &:hover{
+                background: #eeebeb;
+            }
+        }
+    }
+    &-middle{
+        padding: 20px 0;
+    }
+}
+
+.phone{
+    &:hover{
+        color: #FF6418;
+    }
+}
+
+.all-catalog{
+    font-size: 18px;
+    & img{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+@media (max-width: 1440px) {
+    .header-search{
+        width: 470px;
+    }
+}

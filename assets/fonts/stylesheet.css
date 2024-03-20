@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Against';
+    src: url('against-regular.ttf');
+    src: local('Against Regular'), local('Against-Regular'),
+        url('against-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Medium.ttf');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular.ttf');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SB Sans Display';
+    src: url('SBSansDisplay-SemiBold.otf');
+    src: local('SB Sans Display SemiBold'), local('SBSansDisplay-SemiBold'),
+        url('SBSansDisplay-SemiBold.otf') format('otf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Fris Neue Trial';
+    src: url('TT-Firs-Neue-Trial-Medium.ttf');
+    src: local('TT Fris Neue Trial Medium'), local('TTFrisNeueTrial-Medium'),
+        url('TT-Firs-Neue-Trial-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Fris Neue Trial';
+    src: url('TT-Firs-Neue-Trial-ExtraBold.ttf');
+    src: local('TT Fris Neue Trial ExtraBold'), local('TTFrisNeueTrial-ExtraBold'),
+        url('TT-Firs-Neue-Trial-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Fris Neue Trial';
+    src: url('TT-Firs-Neue-Trial-DemiBold.ttf');
+    src: local('TTFrisNeueTrial DemiBold'), local('TTFrisNeueTrial-DemiBold'),
+        url('TT-Firs-Neue-Trial-DemiBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Fris Neue Trial';
+    src: url('TT-Firs-Neue-Trial-Bold.ttf');
+    src: local('TT Fris Neue Trial Bold'), local('TTFrisNeueTrial-Bold'),
+        url('TT-Firs-Neue-Trial-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Fris Neue Trial';
+    src: url('TT-Firs-Neue-Trial-Italic.ttf');
+    src: local('TT Fris Neue Trial Italic'), local('TTFrisNeueTrial-Italic'),
+        url('TT-Firs-Neue-Trial-Italic.ttf') format('truetype');
+    font-weight: italic;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Fris Neue Trial';
+    src: url('TT-Firs-Neue-Trial-Regular.ttf');
+    src: local('TT Fris Neue Trial Regular'), local('TTFrisNeueTrial-Regular'),
+        url('TT-Firs-Neue-Trial-Regular.ttf') format('truetype');
+    font-weight: italic;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Optima Cyr Regular';
+    src: url('Optima-Cyr-Regular.ttf');
+    src: local('Optima Cyr Regular'), local('OptimaCyr-Regular'),
+        url('Optima-Cyr-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
